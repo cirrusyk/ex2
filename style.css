@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: hsl(185, 75%, 39%);
+  min-height: 100%;
+  font-size: 18px;
+  width: 100vh;
+}
+
+h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: hsl(229, 23%, 23%);
+
+}
+
+h2 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 1rem;
+}
+
+hr {
+  color: hsl(227, 10%, 46%);
+  opacity: 0.3;
+}
+
+.age {
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.top-pattern {
+  position: absolute;
+  top: -75%;
+  left: -15%;
+  
+}
+
+.bottom-pattern {
+  position: absolute;
+  right: -15%;
+  bottom: -75%;
+}
+
+.container {
+  background: #fff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 410px;
+  border-radius: 30px;
+}
+
+.profile-pattern {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  border: 5px solid #fff;
+  position: absolute;
+  top: 25%;
+  right: 35%;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.city {
+  margin-left: 43%;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.username {
+  padding-right: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.col {
+  margin: 25px 32px 0px 32px;
+}
+
+.stat {
+  margin-bottom: 10px;
+}
+
+.stat-name {
+  font-size: 0.8rem;
+}
